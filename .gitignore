@@ -2,3 +2,7 @@
 dist/
 __pycache__/
 *.pyc
+.python-version
+*.cast
+main
+main.py
