@@ -1,5 +1,6 @@
 """Game engine."""
 
+
 def run_game(game_logic, instruction):
     """
     Universal game engine.
