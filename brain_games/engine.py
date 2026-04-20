@@ -1,6 +1,9 @@
 """Game engine."""
 
 
+ROUNDS_COUNT = 3
+
+
 def run_game(game_logic, instruction):
     """
     Universal game engine.
@@ -14,9 +17,7 @@ def run_game(game_logic, instruction):
     print(f"Hello, {name}!")
     print(instruction)
     
-    total_rounds = 3
-    
-    for round_num in range(total_rounds):
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game_logic()
         print(f"Question: {question}")
         user_answer = input("Your answer: ").strip()
